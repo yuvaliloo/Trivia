@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trivia Game"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="1+1 = ? "
+            android:id="@+id/tvQ"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textSize="30sp"
+            android:id="@+id/btna1"
+            android:layout_margin="10dp" 
+	     />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b"
+            android:id="@+id/btna2"
+            android:layout_margin="10dp"
+            android:textSize="30sp" 
+	     />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c"
+            android:id="@+id/btna3"
+            android:layout_margin="10dp"
+            android:textSize="30sp" 
+	     />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d"
+            android:id="@+id/btna4"
+            android:layout_margin="10dp"
+            android:textSize="30sp" 
+	      />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPoints"
+            android:text="Points:0"
+            android:textSize="30sp" 
+	      />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvStatus"
+            android:text="Question number : 1 "
+            android:textSize="30sp" 
+	      />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFinish"
+            android:text="Game Over"
+            android:textSize="20sp"
+            android:background="#0f7ce9"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#fafafa" 
+		    android:visibility="invisible"
+	     />
+    
+</LinearLayout>
