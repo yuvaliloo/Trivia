@@ -29,6 +29,7 @@ namespace Trivia
             main = (LinearLayout)FindViewById(Resource.Id.main1);
             math = (RadioButton)FindViewById(Resource.Id.math);
             chem = (RadioButton)FindViewById(Resource.Id.chem);
+            Toast.MakeText(this, "shushamga", ToastLength.Long).Show();
             TextView tv = new TextView(this);
             tv2 = new TextView(this);
             Button start = new Button(this);
